@@ -1,0 +1,57 @@
+body, html{
+	background-color: #e9eaed;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+button{
+	background-color: #009688;
+	background-image: url("https://41.media.tumblr.com/3f38090657a6a9baf6bc26e6e30ae2f8/tumblr_nko28hAtCr1tumtzlo2_r1_75sq.png");
+	border: 0px solid black;
+	border-radius: 100%;
+	box-shadow: 1px 1px 18px 2px #727272;
+	float: right;
+	height:60px;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+		top: 120px;
+		left: 90%;
+	position: fixed;
+	width: 60px;
+}
+
+button:hover{
+	background-color: #0db9a9;
+}
+
+.container{
+	border: 1px solid black;
+	display: block;
+	text-align: center;
+	height: 50%;
+	width: 60%;
+}
+
+header{
+	background-color: #E91E63;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+.light-primary-color{
+	color: #F8BBD0;
+}
+
+table td{
+/*	border: 1px dotted black;*/
+	padding: 5px;
+	width: 100%;
+}
+
+.topPart{
+	background-color: #C2185B;
+	height: 15px;
+	width: 100%;
+	margin: 0px;
+}

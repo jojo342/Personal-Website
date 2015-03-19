@@ -2,8 +2,8 @@
 @media screen and (max-width : 400px) {
 /*	 Styles */
 	button{
-		background-color: #009688;
-		background-image: url("https://41.media.tumblr.com/3f38090657a6a9baf6bc26e6e30ae2f8/tumblr_nko28hAtCr1tumtzlo2_r1_75sq.png");
+		background-color: #000000;
+		color: white;
 		display: block;
 		float: right;
 		position: relative;
@@ -16,10 +16,7 @@
 		background-color: #0db9a9;
 	}
 	
-	.container{
-		display: block;
-		text-align: center;
-	}
+	
 	
 	
 	

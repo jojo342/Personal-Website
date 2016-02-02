@@ -2,7 +2,25 @@
 @media screen and (max-width : 400px) {
 /*	 Styles */
 	button{
-		background-color: #000000;
+		color: white;
+		display: block;
+		float: right;
+        font-size: 10px;
+		position: relative;
+			left: 70%;
+		position: fixed;
+			top: 85%;
+	}
+	
+	button:hover{
+		background-color: #0db9a9;
+	}
+    
+}
+
+@media screen and (max-width : 700px) {
+/*	 Styles */
+	button{
 		color: white;
 		display: block;
 		float: right;
@@ -16,8 +34,14 @@
 		background-color: #0db9a9;
 	}
 	
-	
-	
-	
-	
+    .selfie{
+        height: 170px;
+        padding: 0px;
+    }
+    
+    .thumbnail{
+        border: black 1px solid;
+        height: 100px;
+    }
+    }
 }

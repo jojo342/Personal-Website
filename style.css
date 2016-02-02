@@ -1,6 +1,26 @@
 body, html{
-	max-height: 100%;
+	background-color: #9b9898;
+    cursor:default;
+    max-height: 100%;
 	max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #F8BBD0;
+    text-shadow: 2px 2px 3px #000;
+}
+
+a:visited{
+    color:#F8BBD0;
+}
+
+a:active{
+    color:white;
+}
+
+a:hover{
+    color: white;
 }
 
 button{
@@ -8,40 +28,31 @@ button{
 	border: 0px solid black;
 	border-radius: 100%;
 	box-shadow: 1px 1px 8px 1px #727272;
-	color: white;
 	float: right;
-	height:50px;
+	height:80px;
 	text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px black;
 	padding: 5px;
 	position: relative;
 		top: 120px;
 		left: 90%;
 	position: fixed;
-	width: 50px;
+	width: 80px;
 }
 
 button:hover{
 	background-color: #0db9a9;
+    color: white;
 }
 
 .center{
-	position: relative;
-		top:50%;
-}
-
-.col-md-2{
-    box-shadow: 1px 1px 2px 1px #727272;
-	margin-bottom: 10px solid #cccccc;
-}
-
-footer div{
-    border: solid black 1px;
-    overflow: hidden;
+    text-align: center;
 }
 
 header{
 	background-color: #E91E63;
-	border-top:solid 15px #C2185B;
+/*	border-bottom:solid 15px #C2185B;*/
 	box-shadow: 1px 1px 5px 0px #727272;
 	color: #FFFFFF;
 	margin: 0px;
@@ -50,89 +61,42 @@ header{
 .light-primary-color{
 	color: #F8BBD0;
 }
-.icons, .col-md-2{
-    font-family: Century gothic;
+
+.plus{
+    font-family: verdana;
+    font-size: 15px;
+    text-decoration: none;
     color: white;
-	text-align: center;
-	height:310px;
+}
+
+div{
+    background-color: white;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.navbar{
+    background:#C2185B;
+    height: 5px;
+    width: 100%;
+    font-size:18px;
+}
+
+.navbar < td{
     
 }
 
-.icons, .col-md-2:hover{
-    transform:rotateZ(10deg);
+.center{
+    text-align: center;
 }
 
-.icons div:nth-child(1){
-	background-image: url("https://38.media.tumblr.com/d29cdeba2e0e7d78607f26f506be56e2/tumblr_nl6hyrxdZf1tx7zqyo2_500.gif");
-	background-size: cover;
-	background-position: center;
+.main{
+    border: solid black 0px;
+    margin-bottom:50px;
+    text-align: center;
 }
+/*erase later*/
 
-.icons div:nth-child(2){
-	background-image: url("https://33.media.tumblr.com/03b0f2fc779aae34c0817b5fc66c3efc/tumblr_njn6evBpMz1rkmjxwo1_500.gif");
-	background-size: cover;
-	background-position: center;
-}
-
-.icons div:nth-child(3){
-	background-image: url("https://38.media.tumblr.com/0d683d25516e2cf95827206c18d2a006/tumblr_n3jbvsMFpd1qlxyddo1_400.gif");
-	background-size: cover;
-	background-position: center;
-}
-
-.icons div:nth-child(4){
-	background-image: url("https://33.media.tumblr.com/89e3b2b41fd3f048e919e2a9ceba1eef/tumblr_myarbovNpr1swgvbeo1_500.gif");
-	background-size: cover;
-	background-position: center;
-}
-
-.icons div:nth-child(5){
-	background-image: url("https://33.media.tumblr.com/cad54060d4f6b89c4da6aa635daf22da/tumblr_mmdi4jCi3Z1sq5lnpo1_500.gif");
-	background-size: cover;
-	background-position: center;
-}
-
-.icons div:nth-child(6){
-	background-image: url("https://33.media.tumblr.com/2d0f9f3dd4aaa6bbbb838b9fe52c5b7e/tumblr_nbwqdrkjTZ1qfspdwo1_500.gif");
-	background-size: cover;
-	background-position: center;
-}
-
-.r0c1{
-    background-image: url('https://40.media.tumblr.com/4c87edfde7fd2913a06bbc328b23d620/tumblr_nlgsdygi551tumtzlo1_400.png');
-    background-position: center;
-    background-size: cover;
-}
-
-.r0c2{
-    background-image: url('https://40.media.tumblr.com/3bea24a0484bc02c020a260a1c336f31/tumblr_nlgsdygi551tumtzlo2_400.png');
-    background-position: center;
-    background-size: cover;
-}
-
-.r0c3{
-    background-image: url('https://40.media.tumblr.com/13c10c46fc140eb263267eb0f5289ce0/tumblr_nlgsdygi551tumtzlo3_400.png');
-    background-position: center;
-    background-size: cover;
-}
-
-table td{
-/*	border: 1px dotted black;*/
-	width: 100%;
-}
-
-.text{
-    color: rgba(0, 0, 0, 0.84);
-    font-family: impact;
-    font-size: 35px;
-}
-
-.top{
-    box-shadow: 1px 1px 2px 1px #727272;
-    color: rgba(0, 0, 0, 0.84);
-    font-family: impact;
-    font-size: 10px;    
-    height: 200px;
-    overflow: hidden;
-	text-align: center;
-}
+/*end erase*/

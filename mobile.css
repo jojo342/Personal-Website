@@ -1,6 +1,10 @@
 /* Smartphones (portrait) ----------- */
 @media screen and (max-width : 400px) {
 /*	 Styles */
+    body, html{
+        overflow: visible;
+    }
+    
 	button{
 		color: white;
 		display: block;
@@ -9,17 +13,32 @@
 		position: relative;
 			left: 70%;
 		position: fixed;
-			top: 85%;
+			top: 80%;
 	}
 	
 	button:hover{
 		background-color: #0db9a9;
 	}
     
+    .navbar{
+        position: absolute;
+    }
+    
+    .topBar{
+        background:#C2185B;
+        color: #C2185B;
+        width: 100%;
+        visibility: visible;
+        position: inherit;
+    }
 }
 
 @media screen and (max-width : 700px) {
-/*	 Styles */
+	/* Styles */
+    body, html{
+        overflow: visible;    
+    }
+    
 	button{
 		color: white;
 		display: block;
@@ -33,15 +52,16 @@
 	button:hover{
 		background-color: #0db9a9;
 	}
-	
-    .selfie{
-        height: 170px;
-        padding: 0px;
+    
+    .navbar{
+        position: absolute;
     }
     
-    .thumbnail{
-        border: black 1px solid;
-        height: 100px;
-    }
+    .topBar{
+        background:#C2185B;
+        color: #C2185B;
+        width: 100%;
+        visibility: visible;
+        position: inherit;
     }
 }

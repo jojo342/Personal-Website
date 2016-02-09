@@ -3,6 +3,7 @@ body, html{
     cursor:default;
     max-height: 100%;
 	max-width: 100%;
+    overflow-y: hidden;
 }
 
 a{
@@ -62,13 +63,6 @@ header{
 	color: #F8BBD0;
 }
 
-.plus{
-    font-family: verdana;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-}
-
 div{
     background-color: white;
 }
@@ -78,14 +72,11 @@ div{
 }
 
 .navbar{
-    background:#C2185B;
+    background-color:#C2185B;
+    border: 2px solid #C2185B;
     height: 5px;
     width: 100%;
     font-size:18px;
-}
-
-.navbar < td{
-    
 }
 
 .center{
@@ -97,6 +88,71 @@ div{
     margin-bottom:50px;
     text-align: center;
 }
+
+/*likes.html grid*/
+
+.wrapper{
+    border: 1px solid black;
+ 	display: block;
+ 	text-align: center;
+}
+
+.col-md-2{
+    box-shadow: 1px 1px 2px 1px #727272;
+ 	margin-bottom: 10px solid #cccccc;
+ }
+
+.icons, .col-md-2{
+    font-family: Calibri;
+    text-shadow: 3px 3px 3px #000;
+    color: white;
+ 	text-align: center;
+    height: 450px;
+    font-size: 35px;
+ }
+
+ .icons div:nth-child(1){
+ 	background-image: url("https://38.media.tumblr.com/d29cdeba2e0e7d78607f26f506be56e2/tumblr_nl6hyrxdZf1tx7zqyo2_500.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+ .icons div:nth-child(2){
+ 	background-image: url("https://33.media.tumblr.com/03b0f2fc779aae34c0817b5fc66c3efc/tumblr_njn6evBpMz1rkmjxwo1_500.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+ .icons div:nth-child(3){
+ 	background-image: url("https://38.media.tumblr.com/0d683d25516e2cf95827206c18d2a006/tumblr_n3jbvsMFpd1qlxyddo1_400.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+ .icons div:nth-child(4){
+ 	background-image: url("https://33.media.tumblr.com/89e3b2b41fd3f048e919e2a9ceba1eef/tumblr_myarbovNpr1swgvbeo1_500.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+ .icons div:nth-child(5){
+ 	background-image: url("https://33.media.tumblr.com/cad54060d4f6b89c4da6aa635daf22da/tumblr_mmdi4jCi3Z1sq5lnpo1_500.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+ .icons div:nth-child(6){
+ 	background-image: url("https://33.media.tumblr.com/2d0f9f3dd4aaa6bbbb838b9fe52c5b7e/tumblr_nbwqdrkjTZ1qfspdwo1_500.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+.topBar{
+    position: absolute;
+    visibility: hidden;
+}
+ 
+
 /*erase later*/
 
 /*end erase*/

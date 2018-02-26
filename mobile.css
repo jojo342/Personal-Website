@@ -1,0 +1,76 @@
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width : 400px) {
+/*	 Styles */
+    body, html{
+        overflow: none;
+        overflow-x: hidden;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    
+    button{
+        height: 50px;
+        width: 50px;
+            top:85%;
+            left: 80%;
+    }
+    
+    .card{
+        background-position: center;
+        background-size:cover;
+        height: 30%;
+        width: 80%;
+        margin-bottom: 4%;
+        position: relative;
+            right:15%;
+            bottom: -5%;
+    }
+    
+    .card:hover{
+        background-position: center;
+        background-size:cover;
+    }
+    
+    header{
+        height:20%;
+        border-top:15px #C2185B solid;
+        padding-top:7%;
+        display:block;
+    }
+    
+    .headerText{
+        font-size:20px;
+        white-space: nowrap;
+        position: relative;
+            right:25px !important;
+    }
+    
+    .headerTextTwo{
+        font-size:15px;
+        white-space: nowrap;
+        position: relative;
+    
+    }
+    
+    .footerText{
+        position: relative;
+            bottom:30%;
+    }
+    
+}/*end mobile css*/
+
+/*
+@media screen and (max-width : 700px) {
+	 Styles 
+    body, html{
+        overflow: visible;    
+    }
+    
+    div{
+        border: solid 10px black;
+    }
+    
+}/*end tablet css*/
+

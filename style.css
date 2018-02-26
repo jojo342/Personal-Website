@@ -1,0 +1,177 @@
+body, html{
+    cursor:default;
+    height: 100%;
+	width: 100%;
+    overflow:none;
+    background-color: white;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+	background-color: #795548;
+	border: 0px solid black;
+	border-radius: 100%;
+	box-shadow: 1px 1px 5px 1px #000000;
+	float: right;
+	height:60px;
+	text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px black;
+	padding: 5px;
+	position: fixed;
+	width: 60px;
+        left: 92%;
+        top: 85%;
+    z-index: 5;
+}
+
+button:hover{
+	background-color: #9d7565;
+    color: white;
+}
+
+.buttonImg{
+    height:90%;
+}
+.center{
+    text-align: center;
+}
+
+header{
+	background-color: #E91E63;
+/*	border-bottom:solid 15px #C2185B;*/
+	color: #FFFFFF;
+	margin: 0px;
+    height: 35%;
+    padding-top: 3%;
+}
+
+.light-primary-color{
+	color: #F8BBD0;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+header h1, header h4{
+    padding-left: 25%;
+}
+
+header h1{
+    display: inline;
+    font-weight: bold;
+}
+
+.linkedinLogo{
+    border-radius: 10%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px #000000;
+    height: 60%;
+    width: 50%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    position: relative;
+        bottom: 15%;
+    z-index: 2;
+}
+
+/*insecure*/
+.card2{
+    background: url("https://media.giphy.com/media/3o7TKtUQXzlycNltDO/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card2:hover{
+   background: url("http://www.magazine-hd.com/apps/wp/wp-content/uploads/2016/10/insecure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*steven universe*/
+.card3{
+    background: url("https://i.kinja-img.com/gawker-media/image/upload/s--84oyPLn4--/c_scale,fl_progressive,q_80,w_800/1419427266435404328.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3:hover{
+    background: url("http://66.media.tumblr.com/17936fa584edfdeb904651fd4c0a7032/tumblr_mwvt9rn7fZ1r9626to2_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Brain Dead*/
+.card4{
+    background: url("https://media.giphy.com/media/3o6gEca9AgzL36C6bK/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4:hover{
+    background: url("https://www.tvequals.com/wp-content/uploads/2016/06/BrainDead-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*Jojo's Bizarre Adventure*/
+.card5{
+    background: url("http://i.imgur.com/mtQtgyu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card5:hover{
+    background: url("https://i.ytimg.com/vi/Q1qQQUw0_nQ/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*stranger things*/
+.card1{
+    background: url("https://media3.giphy.com/media/xTcf1mhaPY2CMc7bjO/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1:hover{
+    background: url("https://www.barbican.org.uk/sites/default/files/images/2017-10/17-stranger-things.w600.h315.2x_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer{
+    background-color: #E91E63;
+    height: 15%;
+    width: 100%;
+    position:relative;
+        bottom:0;
+    z-index: 1;
+    text-align: center;
+    border-bottom: 15px #C2185B solid;
+}
